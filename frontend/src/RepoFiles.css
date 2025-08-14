@@ -1,0 +1,128 @@
+.app-container {
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  color: #eee;
+  background-color: #121212;
+}
+
+.repo-title {
+  color: #4cafef;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.selection-panel {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.selected-count {
+  font-weight: 500;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover:not(.disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.btn.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #4cafef;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.files-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.file-box {
+  padding: 10px 16px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  border: 1px solid #444;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.file-box:hover {
+  border-color: #4cafef;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.file-box.selected {
+  background-color: #4cafef;
+  color: #121212;
+  font-weight: bold;
+}
+
+.markdown-container {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.md-h2 { color: #4cafef; }
+.md-h3 { color: #80cbc4; }
+.md-strong { color: #ffab40; }
+.md-pre {
+  background-color: #2e2e2e;
+  padding: 12px;
+  border-radius: 4px;
+  color: #ffcc80;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 16px 0;
+}
+.md-inline-code {
+  background-color: #2e2e2e;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #ffcc80;
+}
+
+
+.full-code-container {
+  margin-top: 20px;
+}
+
+.full-code-title {
+  color: #4cafef;
+  margin-bottom: 15px;
+}
+
+.action-center {
+  text-align: center;
+  margin-top: 20px;
+}
